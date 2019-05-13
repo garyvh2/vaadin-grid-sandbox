@@ -1,0 +1,25 @@
+{
+  "name": "vaadin-grid-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-builtin-classes": "^0.6.1",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@vaadin/vaadin-grid": "^5.4.0",
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "lit-element": "^2.1.0",
+    "lit-html": "^1.0.0",
+    "material-icons": "^0.3.1"
+  }
+}
